@@ -1,0 +1,293 @@
+@import "tailwindcss";
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #fff;
+    --foreground: #ededed;
+  }
+} */
+
+
+/*
+ *  STYLE 3
+ */
+
+#style-3::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar {
+	width: 6px;
+	background-color: #F5F5F5;
+}
+.home-oofer-sectionn .no-cursor, .home-oofer-sectionn .no-cursor:hover{
+	cursor: default!important;
+	text-decoration: none!important;
+}
+.home-oofer-sectionn .winter-box.hotel-box .winter-box-content .winter-box-heading:hover{
+	cursor: default!important;
+	text-decoration: none!important;
+}
+.property-room-page-sec .accommodation-box-content{
+width: 100%!important;
+}
+.brand-new-hotels-image{
+	height: 210px!important;
+	width: 100%;
+	object-fit: cover;
+}
+.brand-association-upcoming-slider .swiper-button-next:after,
+.brand-association-upcoming-slider .swiper-button-prev:after
+{
+color: #fff!important;
+font-size: 14px!important;
+}
+.brand-association-upcoming-slider .swiper-button-next,
+.brand-association-upcoming-slider .swiper-button-prev
+{
+padding: 18px;
+}
+.our-offer-corporate-page .winter-box.hotel-box .winter-box-content .winter-box-heading:hover{
+	text-decoration: none!important;
+	cursor: default!important;
+}
+    
+.cityexpr1 .swiper-pagination-bullet{
+	width: 5px!important;
+	height: 5px!important;
+	background-color: #797979!important;
+	background: #797979!important;
+	border-radius: 0!important;
+	opacity: 1!important;
+}
+.cityexpr1 .swiper-pagination-bullet-active{
+	width: 10px!important;
+	height: 5px!important;
+	background-color: #000!important;
+	background: #000!important;
+	border-radius: 0!important;
+}
+body::-webkit-scrollbar {
+	width: 6px !important;
+	background-color: #F5F5F5 !important;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #000000 !important;
+	width: 6px !important;
+}
+
+
+body {
+	background: var(--background);
+	color: var(--foreground);
+	font-family: 'Montserrat' sans-serif;
+}
+
+.mtspace5 {
+	margin-top: 5em;
+}
+
+.swiper-button-prev:after {
+	font-size: 16px;
+}
+
+.modal {
+	z-index: 999999999999999999999 !important;
+}
+
+.dynamic-inner-footer .dynamic-contact-info p {
+	text-transform: capitalize !important;
+	display: flex;
+	align-items: center;
+}
+
+.dynamic-inner-footer .contact-info i,
+.dynamic-inner-footer .contact-info svg {
+	margin-right: 0px;
+	color: var(--primary-color);
+	height: 13px;
+	padding: 4px;
+	width: 17px;
+}
+
+
+.pushed-wrapper {
+	position: relative;
+}
+
+.pushed-image {
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	height: 200px;
+	width: 100%;
+}
+
+.pushed-header {
+	margin-bottom: 10px;
+}
+
+.pushed-header span {
+	display: block;
+}
+
+.pushed-header .header-1 {
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
+.pushed-header .header-3 {
+	color: #111;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.pushed-content {
+	position: relative;
+	padding: 15px 15px 40px 15px;
+	background: #fff;
+	font-size: 1rem;
+}
+
+.pushed-box {
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	background-color: #fff;
+	padding: 2rem;
+}
+
+.pushed-header {
+	padding: 0px 15px;
+}
+
+.new-type-dine-sec .box-btn {
+	font-size: 10px;
+	padding: 1px 10px;
+	line-height: 1.5rem;
+}
+
+.inner-no-banner-sec {
+	margin-top: 12rem;
+}
+
+.property-book-now-header {
+	margin-top: .5rem !important;
+}
+
+#thumbs img[alt="The Clarks Hotels & Resorts"] {
+	width: 165px !important;
+}
+
+.our-hotel-dropdown.dropdown-toggle::after {
+	display: none;
+}
+
+.rotate-180 {
+	transform: rotate(180deg);
+}
+
+.our-hotel-dropdown .navbar .navbar-nav li a {
+	font-size: 14px !important;
+}
+
+.our-hotel-dropdown .winter-box.hotel-box .winter-box-btn .box-btn {
+	color: #fff !important;
+	text-align: center;
+	font-size: 10px;
+}
+
+.sticky-top {
+	position: sticky;
+	top: 0;
+	z-index: 1020;
+	background: #ffffff;
+}
+
+.popup-card .winter-box-content p {
+	text-wrap: auto;
+}
+
+.our-hotel-dropdown ul li button {
+	color: #000 !important;
+}
+
+.our-hotel-dropdown .hotellist .winter-box img {
+	height: 200px !important;
+}
+
+.mobile-city-search {
+	z-index: 9999
+}
+
+.mobile-city-search span.text-gray-400 {
+	font-size: 18px;
+}
+
+.clarks-sidebar-menu li button,
+.clarks-sidebar-menu li a {
+	color: #000;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .our-hotel-dropdown .dropdown-menu {
+		top: 61px;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.pushed-image {
+		height: 70vh;
+		width: 60% !important;
+	}
+
+	.pushed-content {
+		border-radius: 0px 20px;
+		min-height: 200px;
+		border: 3px solid #225476;
+		box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.42);
+	}
+
+	.pushed-box {
+		position: absolute;
+		left: 55% !important;
+		top: 50% !important;
+		max-width: 45% !important;
+		transform: translateY(-50%);
+	}
+}
+
+@media(max-width: 768px) {
+
+	.overview-wrapper {
+		height: 400px;
+	}
+
+	.overview-hotelimg {
+		height: 400px;
+	}
+
+	.overview-wrapper .swiper.swiper-initialized {
+		height: 500px;
+	}
+	.brand-new-hotels-image{
+	height: 100%!important;
+}
+}
